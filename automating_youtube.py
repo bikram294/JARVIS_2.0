@@ -1,0 +1,18 @@
+import pyautogui
+
+pyautogui.doubleClick(483,1079,duration=2)
+pyautogui.sleep(2)
+pyautogui.hotkey('ctrl','t')
+pyautogui.sleep(2)
+pyautogui.write('https://www.youtube.com/watch?v=e1a5TNg_jxU&t=2483s')
+pyautogui.press('enter')
+pyautogui.sleep(20)
+pyautogui.click(906,1039)
+pyautogui.scroll(-500)
+pyautogui.sleep(1)
+pyautogui.click(1203,622)
+pyautogui.sleep(1)
+pyautogui.click(285,881)
+pyautogui.write('Awesome vid!')
+pyautogui.sleep(2)
+pyautogui.click(1276,941)
